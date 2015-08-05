@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<%= image_tag @listing.image.url(:medium) %>
+
+<h1>New Listing</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', listings_path %>
